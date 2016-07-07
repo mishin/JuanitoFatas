@@ -9,6 +9,10 @@
   </head>
 
   <body>
+    <%- if Rails.env.production? %>
+      <%= render "google_analytics" %>
+    <% end %>
+
     <%= yield %>
   </body>
 </html>
