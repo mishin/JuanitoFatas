@@ -17,6 +17,7 @@ gem "twemoji"
 gem "html-pipeline-linkify_github"
 gem "html-pipeline-rouge_filter"
 gem "rollbar"
+gem "secure_headers"
 
 group :production do
   gem "rack-timeout"
