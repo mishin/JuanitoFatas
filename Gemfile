@@ -16,6 +16,7 @@ gem "sanitize"
 gem "twemoji"
 gem "html-pipeline-linkify_github"
 gem "html-pipeline-rouge_filter"
+gem "rollbar"
 
 group :development, :test do
   gem "pry-rails"
