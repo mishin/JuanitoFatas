@@ -19,6 +19,7 @@ gem "html-pipeline-rouge_filter"
 gem "rollbar"
 
 group :production do
+  gem "rack-timeout"
   gem "rails_12factor"
 end
 

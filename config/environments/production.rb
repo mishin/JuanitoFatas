@@ -92,3 +92,6 @@ Rails.application.configure do
     options
   end
 end
+
+Rack::Timeout.timeout = 15
+Rack::Timeout.wait_timeout = 15
