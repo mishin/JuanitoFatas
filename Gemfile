@@ -18,6 +18,10 @@ gem "html-pipeline-linkify_github"
 gem "html-pipeline-rouge_filter"
 gem "rollbar"
 
+group :production do
+  gem "rails_12factor"
+end
+
 group :development, :test do
   gem "pry-rails"
   gem "rspec-rails"
