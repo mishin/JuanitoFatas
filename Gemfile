@@ -10,6 +10,13 @@ gem "uglifier", ">= 1.3.0"
 gem "jquery-rails"
 gem "turbolinks", "~> 5"
 
+gem "html-pipeline", git: "https://github.com/jch/html-pipeline.git", branch: "bump-rails-dependency"
+gem "github-markdown"
+gem "sanitize"
+gem "twemoji"
+gem "html-pipeline-linkify_github"
+gem "html-pipeline-rouge_filter"
+
 group :development, :test do
   gem "pry-rails"
   gem "rspec-rails"
