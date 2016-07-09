@@ -3,6 +3,10 @@
 class Post < ApplicationRecord
   before_create :generate_slug
 
+  def self.newest_first
+    order(created_at: :desc)
+  end
+
   def to_param
     slug
   end
