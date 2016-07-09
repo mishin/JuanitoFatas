@@ -10,7 +10,7 @@ $serif: "Radley", serif;
 $dark-gray: #333 !default;
 $base-font-color: $dark-gray !default;
 
-h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: $serif;
 }
 
@@ -44,11 +44,13 @@ p {
 }
 
 img {
+  display: block;
   height: auto;
   left: 0;
   position: relative;
   top: 0;
-  max-width: 100%;
+  width: 100%;
+  margin: 0 0 4px;
 }
 
 img.emoji {
@@ -82,7 +84,14 @@ img.emoji {
     display: inline;
 
     a {
+      font-family: $serif;
+      color: transparentize($base-font-color, 0.6);
       margin-right: 1em;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   }
 }
