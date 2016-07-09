@@ -1,3 +1,6 @@
-ul
-- @posts.each do |post|
-  li= link_to post.title, blog_post_path(post)
+ul.tiny-post-list
+  - @posts.each do |post|
+    li.tiny-post
+      h2.tiny-post-title= link_to post.title, blog_post_path(post)
+      p.tiny-post-teaser= post.description
+      = render_post_meta_info(post)

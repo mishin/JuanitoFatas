@@ -1,0 +1,113 @@
+.tiny-post-list {
+  padding-top: 2em;
+  list-style-type: none;
+}
+
+.tiny-post {
+  border-bottom: 1px solid #eee;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+
+.tiny-post-title {
+  font-size: 1.75em;
+}
+
+.tiny-post-title a {
+  color: $dark-gray;
+  text-decoration: none;
+}
+
+.tiny-post-teaser {
+  color: #666;
+}
+
+.tiny-post-title a:hover {
+  color: #f53d43;
+}
+
+.post {
+  @include clearfix;
+  font-family: $sans-serif;
+  text-align: left;
+
+  header {
+    padding-top: 2em;
+  }
+
+  h1, h2, h3, p {
+    margin: 0;
+  }
+
+  hr {
+    border-bottom: 1px solid $light-gray;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    margin: $base-spacing 0;
+  }
+
+  p {
+    color: $base-font-color;
+    line-height: $base-line-height;
+  }
+
+  a {
+    color: $dark-gray;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    color: #f53d43;
+  }
+
+  h1 {
+    font-family: $serif;
+    font-size: 1.9em;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+
+    @include media($medium-screen) {
+      font-size: 2.6em;
+    }
+  }
+
+  h2 {
+    font-family: $serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.25em;
+    margin-bottom: 0.9em;
+
+    @include media($medium-screen) {
+      font-size: 1.5em;
+    }
+  }
+
+  h3 {
+    font-family: $serif;
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin-bottom: 0.4em;
+  }
+
+  p {
+    font-family: $sans-serif;
+    letter-spacing: 1;
+    line-height: 1.55em;
+    margin-bottom: 1.5em;
+
+    span {
+      font-family: $serif;
+      font-size: 1.2em;
+      font-style: italic;
+    }
+  }
+
+  hr {
+    width: 3em;
+  }
+}

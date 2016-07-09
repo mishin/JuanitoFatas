@@ -14,4 +14,7 @@ html lang="en"
     - if Rails.env.production?
       = render "google_analytics"
 
-    = yield
+    .container
+      h1#juanitofatas= link_to "Juanito Fatas", root_path
+
+      = yield

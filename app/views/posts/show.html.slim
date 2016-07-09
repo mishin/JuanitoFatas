@@ -1,2 +1,6 @@
-h1= @post.title
-= markdown_to_html(@post.body)
+article.post
+  header
+    h1.title= @post.title
+    = render_post_meta_info(@post)
+  .post-body
+    = markdown_to_html(@post.body)

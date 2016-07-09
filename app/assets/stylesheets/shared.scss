@@ -1,0 +1,88 @@
+$mobile: new-breakpoint(max-width 500px 4);
+$base-border-radius: 3px !default;
+$base-line-height: 1.5em !default;
+$base-spacing: 1.5em !default;
+$light-gray: #DDD !default;
+$medium-screen: 40em !default;
+$logo-fint: "Architects Daughter", cursive;
+$sans-serif: "Noto Sans", sans-serif;
+$serif: "Radley", serif;
+$dark-gray: #333 !default;
+$base-font-color: $dark-gray !default;
+
+h2 {
+  font-family: $serif;
+}
+
+p {
+  font-family: $sans-serif;
+}
+
+.container {
+  @include outer-container(100%);
+  @include span-columns(8);
+  @include shift(2);
+
+  @include media($mobile) {
+    @include span-columns(12);
+    @include shift(0);
+  }
+}
+
+#juanitofatas {
+  font-family: $logo-fint;
+  font-size: 2em;
+
+  a {
+    color: $dark-gray;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #f53d43;
+  }
+}
+
+img {
+  height: auto;
+  left: 0;
+  position: relative;
+  top: 0;
+  max-width: 100%;
+}
+
+img.emoji {
+  height: 1.1em;
+  width: 1.1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+
+.meta {
+  padding-bottom: 2rem;
+  line-height: 1.5em;
+
+  time.meta-date {
+    color: transparentize($base-font-color, 0.6);
+    font-family: $serif;
+    font-style: italic;
+    margin-bottom: 0.3em;
+  }
+}
+
+.short-introduction {
+  margin: 1.25em 0;
+}
+
+.link-list {
+  list-style-type: none;
+  padding-left: 0;
+
+  li {
+    display: inline;
+
+    a {
+      margin-right: 1em;
+    }
+  }
+}
