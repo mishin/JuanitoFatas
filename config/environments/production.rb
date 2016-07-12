@@ -92,8 +92,8 @@ Rails.application.configure do
     options
   end
 
-  config.action_controller.default_url_options = { host: "juanitofatas.com" }
-  config.action_controller.asset_host = "juanitofatas.com"
+  config.action_controller.default_url_options = { host: "www.juanitofatas.com" }
+  config.action_controller.asset_host = "www.juanitofatas.com"
 end
 
 Rack::Timeout.timeout = 15
