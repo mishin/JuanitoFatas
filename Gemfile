@@ -49,4 +49,5 @@ group :test do
   gem "launchy"
   gem "capybara"
   gem "capybara-webkit"
+  gem "codecov", require: false
 end
