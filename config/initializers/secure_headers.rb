@@ -19,19 +19,19 @@ SecureHeaders::Configuration.default do |config|
     preserve_schemes: true, # default: false. Schemes are removed from host sources to save bytes and discourage mixed content.
 
     # directive values: these values will directly translate into source directives
-    default_src: %w(https: "self"),
-    frame_src: %w("self" *.twimg.com itunes.apple.com),
+    default_src: %w(https: 'self'),
+    frame_src: %w('self' *.twimg.com itunes.apple.com),
     connect_src: %w(wss:),
-    font_src: %w(fonts.gstatic.com "self" data:),
-    img_src: %W(#{ENV["WWW_HOSTNAME"]} cloud.githubusercontent.com data:),
+    font_src: %w(fonts.gstatic.com 'self' data:),
+    img_src: %W(#{ENV["WWW_HOSTNAME"]} www.google-analytics.com cloud.githubusercontent.com data:),
     media_src: %w(),
-    object_src: %w("self"),
-    script_src: %W(#{ENV["WWW_HOSTNAME"]} "self"),
-    style_src: %W(#{ENV["WWW_HOSTNAME"]} fonts.googleapis.com "unsafe-inline"),
-    base_uri: %w("self"),
-    child_src: %w("self"),
-    form_action: %w("self" github.com),
-    frame_ancestors: %w("none"),
+    object_src: %w('self'),
+    script_src: %W(#{ENV["WWW_HOSTNAME"]} www.google-analytics.com 'unsafe-inline'),
+    style_src: %W(#{ENV["WWW_HOSTNAME"]} fonts.googleapis.com 'unsafe-inline'),
+    base_uri: %w('self'),
+    child_src: %w('self'),
+    form_action: %w('self' github.com),
+    frame_ancestors: %w('none'),
     plugin_types: %w(application/x-shockwave-flash),
     block_all_mixed_content: true, # see http://www.w3.org/TR/mixed-content/
     upgrade_insecure_requests: true, # see https://www.w3.org/TR/upgrade-insecure-requests/
