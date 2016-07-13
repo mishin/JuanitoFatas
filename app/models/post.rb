@@ -11,6 +11,10 @@ class Post < ApplicationRecord
     slug
   end
 
+  def to_s
+    title
+  end
+
   private
 
     def to_slug

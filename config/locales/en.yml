@@ -1,2 +1,6 @@
 en:
-  hello: "Hello world"
+  titles:
+    application: Juanito Fatas
+    posts:
+      index: "Writing - Juanito Fatas"
+      show: "%{post} - Juanito Fatas"
