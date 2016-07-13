@@ -93,7 +93,7 @@ For wildcard subdomain:
 heroku domains:add *.example.com
 ```
 
-## 4. Add DNS records to DNSimple
+## 5. Add DNS records to DNSimple
 
 Add these records to the DNS records:
 
@@ -118,7 +118,7 @@ You can also use the one-click service provided by DNSimple:
 - **If Heroku app is on US region**, use *Heroku SSL* one-click service
 - **If Heroku app is on Europe region**, use *Heroku* one-click service
 
-## 5. Rails app
+## 6. Rails app
 
 Enable [`force_ssl`](http://api.rubyonrails.org/classes/ActionController/ForceSSL/ClassMethods.html#method-i-force_ssl) option for your production-like environment (staging, production):
 
