@@ -9,10 +9,11 @@
 [codecov]: https://codecov.io/gh/JuanitoFatas/JuanitoFatas
 
 
-This codebase is the Rails app for https://juanitofatas.com, my personal website.
+This codebase is the Rails app for https://juanitofatas.com, my [breakable toy][breakable-toy].
 
 If you have questions / feedback, open an issue.
 
 To contribute to this project, see the [CONTRIBUTING.md][] file.
 
 [CONTRIBUTING.md]: CONTRIBUTING.md
+[breakable-toy]: http://chimera.labs.oreilly.com/books/1234000001813/ch05.html#breakable_toys
