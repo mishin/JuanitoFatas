@@ -1,0 +1,6 @@
+ul.tag-list
+  - @all_tags.each do |tag_title, tags|
+    li.tag-item
+      .tag-title= tag_title
+      - tags.each do |tag|
+        = link_to tag, tag_path(tag), class: "tag"

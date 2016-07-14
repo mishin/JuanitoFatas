@@ -1,0 +1,6 @@
+.meta
+  time.meta-date date=post.created_at
+    = post.created_at.strftime("%b %d, %Y".freeze)
+  ul.meta-tag-list
+    - post.tags.each do |tag|
+      li.meta-tag-item= link_to tag, "/tags/#{tag}"

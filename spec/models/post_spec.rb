@@ -1,6 +1,28 @@
 require "rails_helper"
 
 RSpec.describe Post do
+  describe ".with_tag" do
+    it "returns post with given tag" do
+      swift_post = create(:post, tags: ["swift"])
+      objc_post = create(:post, tags: ["objective-c"])
+
+      expect(Post.with_tag("swift")).to eq [swift_post]
+    end
+  end
+
+  describe ".all_tags" do
+    it "returns all tags in the system as a hash" do
+      create(:post, tags: %w(ruby rails rubygem))
+      create(:post, tags: %w(swift ios))
+      create(:post, tags: %w(web design rails))
+
+      result = Post.all_tags
+
+      expect(result.keys).to match_array %w(d i r s w)
+      expect(result.values.flatten).to match_array %w(ruby rubygem swift ios web design rails)
+    end
+  end
+
   describe ".newest_first" do
     it "returns the posts: newest to oldest" do
       oldest_post = create(:post, created_at: 1.year.ago)

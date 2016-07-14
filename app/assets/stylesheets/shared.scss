@@ -64,13 +64,38 @@ img.emoji {
 .meta {
   padding-bottom: 2rem;
   line-height: 1.5em;
+  font-family: $serif;
+}
 
-  time.meta-date {
-    color: transparentize($base-font-color, 0.6);
-    font-family: $serif;
-    font-style: italic;
-    margin-bottom: 0.3em;
-  }
+.meta-date {
+  color: transparentize($base-font-color, 0.6);
+  font-style: italic;
+  margin-bottom: 0.3em;
+}
+
+.meta-tag-list {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.meta-tag-item {
+  display: inline-block;
+  margin-right: 0.75em;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.meta-tag-item a {
+  color: #f53d43;
+  text-decoration: none;
+}
+
+.meta-tag-item:after {
+  content: ", ";
+}
+
+.meta-tag-item:last-child:after {
+  content: "";
 }
 
 .short-introduction {

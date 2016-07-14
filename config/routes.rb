@@ -5,4 +5,6 @@ Rails.application.routes.draw do
 
   get "blog" => "posts#index"
   get "blog/*id" => "posts#show", as: :blog_post
+  get "tags" => "tags#index"
+  get "tags/:id" => "tags#show", as: :tag
 end

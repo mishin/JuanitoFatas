@@ -7,7 +7,7 @@ class MigratePost
 
   def call
     post = Post.find_by(title: title) || Post.new(title: title)
-    post.update!(body: body, description: description, created_at: date)
+    post.update!(body: body, description: description, created_at: date, tags: tags)
     post
   end
 
@@ -33,6 +33,10 @@ class MigratePost
 
     def description
       fetch_yml_value(lines[4])
+    end
+
+    def tags
+      fetch_yml_value(lines[5]).split(/,\s+/)
     end
 
     def body
