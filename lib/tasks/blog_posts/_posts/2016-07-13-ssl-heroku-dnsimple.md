@@ -84,14 +84,14 @@ to find out your SSL endpoint.
 For single subdomain:
 
 ```
-heroku domains:add www.example.com
-heroku domains:add example.com
+$ heroku domains:add www.example.com
+$ heroku domains:add example.com
 ```
 
 For wildcard subdomain:
 
 ```
-heroku domains:add *.example.com
+$ heroku domains:add *.example.com
 ```
 
 ## 5. Add DNS records to DNSimple
