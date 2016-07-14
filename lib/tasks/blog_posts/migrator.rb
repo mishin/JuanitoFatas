@@ -40,7 +40,7 @@ class MigratePost
     end
 
     def body
-      (lines[6].empty? ? lines[7..-1] : lines[6..-1]).join("\n") + "\n"
+      (lines[7].empty? ? lines[8..-1] : lines[7..-1]).join("\n") + "\n"
     end
 end
 
