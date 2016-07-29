@@ -1,6 +1,6 @@
-article.post
+article.post itemscope="" itemtype="https://schema.org/BlogPosting"
   header
-    h1.title= @post.title
+    h1.title itemprop="name"= @post.title
     = render "meta", post: @post
-  .post-body
+  .post-body itemprop="articleBody"
     = markdown_to_html(@post.body)

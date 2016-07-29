@@ -12,11 +12,11 @@ html lang="en"
     = javascript_include_tag "application", "data-turbolinks-track": "reload"
     = favicon_link_tag
 
-  body
+  body itemscope="" itemtype="https://schema.org/WebPage"
     - if Rails.env.production?
       = render "google_analytics"
 
     .container
-      h1#juanitofatas= link_to("Juanito Fatas", root_path, "aria-label" => "Back to Home Page")
+      h1#juanitofatas= link_to("Juanito Fatas", root_path, "aria-label" => "Back to Home Page", "itemprop" => "url")
 
       = yield
