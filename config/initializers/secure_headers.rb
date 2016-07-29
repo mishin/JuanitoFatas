@@ -23,7 +23,7 @@ SecureHeaders::Configuration.default do |config|
     child_src: %w('self' *.twimg.com itunes.apple.com),
     connect_src: %w('self' wss:),
     font_src: %w(fonts.gstatic.com 'self' data:),
-    img_src: %W(#{ENV["WWW_HOSTNAME"]} www.google-analytics.com cloud.githubusercontent.com data:),
+    img_src: %W(#{ENV["WWW_HOSTNAME"]} www.google-analytics.com cloud.githubusercontent.com twemoji.maxcdn.com data:),
     media_src: %w(),
     object_src: %w('self'),
     script_src: %W(#{ENV["WWW_HOSTNAME"]} www.google-analytics.com 'unsafe-inline'),
