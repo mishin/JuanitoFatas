@@ -17,6 +17,6 @@ html lang="en"
       = render "google_analytics"
 
     .container
-      h1#juanitofatas= link_to "Juanito Fatas", root_path
+      h1#juanitofatas= link_to("Juanito Fatas", root_path, "aria-label" => "Back to Home Page")
 
       = yield

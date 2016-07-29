@@ -3,4 +3,4 @@ ul.tag-list
     li.tag-item
       .tag-title= tag_title
       - tags.each do |tag|
-        = link_to tag, tag_path(tag), class: "tag"
+        = link_to(tag, tag_path(tag), class: "tag", "aria-label" => "Posts tagged with #{tag}")
