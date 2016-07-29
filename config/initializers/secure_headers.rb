@@ -21,7 +21,7 @@ SecureHeaders::Configuration.default do |config|
     # directive values: these values will directly translate into source directives
     default_src: %w(https: 'self'),
     child_src: %w('self' *.twimg.com itunes.apple.com),
-    connect_src: %w(wss:),
+    connect_src: %w('self' wss:),
     font_src: %w(fonts.gstatic.com 'self' data:),
     img_src: %W(#{ENV["WWW_HOSTNAME"]} www.google-analytics.com cloud.githubusercontent.com data:),
     media_src: %w(),
