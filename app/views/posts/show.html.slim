@@ -4,3 +4,9 @@ article.post itemscope="" itemtype="https://schema.org/BlogPosting"
     = render "meta", post: @post
   .post-body itemprop="articleBody"
     = markdown_to_html(@post.body)
+
+hr
+
+.social
+  h4 Share this post
+  = render "social-shared", title: @post.title, url: blog_post_url(@post)
