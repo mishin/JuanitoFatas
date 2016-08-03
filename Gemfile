@@ -24,6 +24,7 @@ gem "neat", "~> 1.8.0"
 gem "title"
 gem "rack-rewrite"
 gem "skylight"
+gem "redis"
 
 group :production do
   gem "rack-timeout"

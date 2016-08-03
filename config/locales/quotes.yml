@@ -1,0 +1,23 @@
+en:
+  quotes:
+    -
+      text: "Patterns mean “I have run out of language.”"
+      source: "Rich Hickey"
+    -
+      text: "Lisp is worth learning for the profound enlightenment experience you will have when you finally get it; that experience will make you a better programmer for the rest of your days, even if you never actually use Lisp itself a lot."
+      source: "Eric Raymond, “How to Become a Hacker”"
+    -
+      text: "A language that doesn't affect the way you think about programming, is not worth knowing."
+      source: "Alan Perlis"
+    -
+      text: "Elegance is not optional."
+      source: "Richard A. O'Keefe"
+    -
+      text: "Once you are an experienced Lisp programmer, it's hard to return to any other language."
+      source: "Robert R. Kessler"
+    -
+      text: "You should be able to explain any module in one sentence."
+      source: "Wayne Ratliff"
+    -
+      text: "while you're working hard on a complicated program, it is important to exercise. The lack of physical exercise does mot programmers in. it causes a loss of mental acuity."
+      source: "John Page"

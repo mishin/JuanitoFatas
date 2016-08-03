@@ -173,6 +173,7 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    redis (3.3.0)
     rollbar (2.12.0)
       multi_json
     rouge (1.11.1)
@@ -295,6 +296,7 @@ DEPENDENCIES
   rack-timeout
   rails (~> 5.0.0)
   rails_12factor
+  redis
   rollbar
   rspec-rails
   sanitize

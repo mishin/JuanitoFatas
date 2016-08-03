@@ -7,3 +7,5 @@ before_script:
   - psql -c 'create database juanitofatas_test;' -U postgres
 script:
   - bundle exec rspec
+services:
+  - redis-server

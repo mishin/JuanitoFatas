@@ -133,3 +133,21 @@ hr {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+
+blockquote {
+  font-size: 1.25em;
+  margin: 1em 2.5em;
+  line-height: 1.75em;
+}
+
+blockquote:before {
+  content: "“";
+  font-size: 3em;
+  text-indent: -0.75em;
+  float: left;
+  opacity: 0.3;
+}
+
+.favorited-quote {
+  margin-top: 2em;
+}
