@@ -1,7 +1,7 @@
 require "rails_helper"
 
 RSpec.describe Quote do
-  describe "#sample" do
+  describe ".sample" do
     it "works" do
       quote = Quote.sample
 
