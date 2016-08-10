@@ -1,0 +1,46 @@
+section.contributions
+  h2 My Open Source Contributions on GitHub
+  p
+    ' I contributed
+    => link_to "some commits", "http://contributors.rubyonrails.org/contributors/juanito-fatas/commits/", target: "_blank", rel: "noopener", "aria-label" => "Link to my Rails commits", "itemprop" => "url"
+    ' to
+    = link_to "Rails", "https://github.com/rails/rails/", target: "_blank", rel: "noopener", "aria-label" => "Link to Rails GitHub project", "itemprop" => "url"
+    ' .
+    | The following is my adventures in the wonderland of Open Source 👇
+
+  h3 id="hightlights" Highlights
+  ul class="contribution-list"
+    - @contributions[:highlights].each do |repo_info|
+      li= render "repository", repository: Repository.new(repo_info)
+
+  h3 id="projects" Projects
+  ul class="contribution-list"
+    - @contributions[:projects].each do |repo_info|
+      li= render "repository", repository: Repository.new(repo_info)
+
+  h3 id="libraries" Libraries
+  ul class="contribution-list"
+    - @contributions[:libraries].each do |repo_info|
+      li= render "repository", repository: Repository.new(repo_info)
+
+  h3 id="documentations" Documentations
+  ul class="contribution-list"
+    - @contributions[:documentations].each do |repo_info|
+      li= render "repository", repository: Repository.new(repo_info)
+
+  h3 id="translations" Translations
+  p
+    ' I maintain Chinese locale of
+    = link_to "https://ruby-lang.org", "https://ruby-lang.org/", target: "_blank", rel: "noopener", "aria-label" => "Link to Ruby official website", "itemprop" => "url"
+    ' . And
+    ' I translated
+    = link_to "Ruby on Rails Doctrine", "https://medium.com/@juanitofatas/ruby-on-rails-%E5%9F%BA%E6%9C%AC%E4%B8%BB%E7%BE%A9-f4cde39292a4#.c4zbum2k5", target: "_blank", rel: "noopener", "aria-label" => "Link to Ruby on Rails Doctrine translation on medium.com", "itemprop" => "url"
+    ' ,
+    = link_to "Ruby on Rails Guides", "http://rails.ruby.tw/", target: "_blank", rel: "noopener", "aria-label" => "Link to Ruby on Rails Guides (Traditional Chinese)", "itemprop" => "url"
+    ' , and
+    = link_to "Rails Girls Guides", "http://railsgirls.tw/", target: "_blank", rel: "noopener", "aria-label" => "Link to Rails Girls Guides (Traditional Chinese)", "itemprop" => "url"
+    | . Some other work listed below:
+
+  ul class="contribution-list"
+    - @contributions[:translations].each do |repo_info|
+      li= render "repository", repository: Repository.new(repo_info)

@@ -1,0 +1,53 @@
+.truncate {
+  width: 16em;
+  height: 6em;
+  overflow: scroll;
+}
+
+.contributions a {
+  color: $dark-gray;
+  text-decoration: underline;
+}
+
+.contributions a:hover {
+  color: #f53d43;
+}
+
+.contributions p {
+  line-height: 1.55em;
+}
+
+.contribution-list {
+  margin-right: -3rem;
+  margin-bottom: 2rem;
+  margin-left: -3rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.contribution-list li {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin-bottom: 1.5em;
+  margin-right: 1.5em;
+  padding: 1.5em;
+  flex-basis: 16em;
+  flex-grow: 1;
+}
+
+.contribution-list .repo-logo img {
+  width: 48px;
+  height: 48px;
+}
+
+a.btn-repo {
+  font-family: $serif;
+  color: transparentize($base-font-color, 0.6);
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+a.btn-repo:hover {
+  text-decoration: underline;
+}

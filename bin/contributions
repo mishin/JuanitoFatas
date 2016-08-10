@@ -1,0 +1,115 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+require "pathname"
+require "octokit"
+require "twemoji"
+
+class Repository
+  def initialize(url)
+    @url = url
+    @owner, @repo = url.split("/").last(2)
+  end
+
+  def for_yml
+    {
+      "url" => url,
+      "commits_url" => File.join(url, "commits?author=JuanitoFatas"),
+      "avatar_url" => avatar_url,
+      "title" => title,
+      "description" => description,
+    }
+  end
+
+  private
+
+    attr_reader :url, :owner, :repo
+
+    def client
+      @client ||= Octokit::Client.new(access_token: ENV["OAUTH_ACCESS_TOKEN"])
+    end
+
+    def repo_info
+      @_repo_info ||= client.repository File.join(owner, repo)
+    end
+
+    def avatar_url
+      "https://avatars3.githubusercontent.com/u/#{repo_info.owner.id}?v=3&s=96"
+    end
+
+    def title
+      repo_info.full_name
+    end
+
+    def description
+      repo_info.description
+    end
+end
+
+contributions_yml_file_path = Pathname(Dir.pwd).join("config/locales/contributions.yml").to_path
+
+highlights = [
+  "https://github.com/JuanitoFatas/fast-ruby",
+  "https://github.com/jollygoodcode/twemoji",
+  "https://github.com/jch/html-pipeline",
+  "https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby",
+  "https://github.com/ruby/spec",
+].map { |url| Repository.new(url).for_yml }
+
+projects = [
+  "https://github.com/jollygoodcode/dasherize",
+  "https://github.com/jollygoodcode/reread",
+  "https://github.com/JuanitoFatas/JuanitoFatas",
+].map { |url| Repository.new(url).for_yml }
+
+libraries = [
+  "https://github.com/JuanitoFatas/Orval",
+  "https://github.com/JuanitoFatas/active_error",
+  "https://github.com/JuanitoFatas/active_loader",
+  "https://github.com/JuanitoFatas/active_sample",
+  "https://github.com/JuanitoFatas/bin",
+  "https://github.com/JuanitoFatas/cangjie",
+  "https://github.com/JuanitoFatas/git-open",
+  "https://github.com/JuanitoFatas/git-remote-parser",
+  "https://github.com/JuanitoFatas/html-pipeline-rouge_filter",
+  "https://github.com/JuanitoFatas/jekyll-twemoji",
+  "https://github.com/JuanitoFatas/juanito_mock",
+  "https://github.com/JuanitoFatas/mobile_export",
+  "https://github.com/JuanitoFatas/mojime",
+  "https://github.com/JuanitoFatas/os_name",
+  "https://github.com/JuanitoFatas/rails-versions",
+  "https://github.com/JuanitoFatas/sketch-octicons",
+  "https://github.com/jollygoodcode/bin",
+  "https://github.com/jollygoodcode/emoji-keywords",
+  "https://github.com/jollygoodcode/html-pipeline-linkify_github",
+  "https://github.com/jollygoodcode/lockfile_preserver",
+  "https://github.com/jollygoodcode/whatsnew",
+  "https://github.com/juanitofatas/jquery-final_countdown-rails",
+  "https://github.com/winston/google_visualr",
+  "https://github.com/winston/rails_utils",
+].map { |url| Repository.new(url).for_yml }
+
+documentations = [
+  "https://github.com/rubytaiwan/taipei",
+  "https://github.com/JuanitoFatas/singapore",
+  "https://github.com/JuanitoFatas/remote",
+].map { |url| Repository.new(url).for_yml }
+
+translations = [
+  "https://github.com/JuanitoFatas/ruby-style-guide",
+  "https://github.com/JuanitoFatas/rails-style-guide",
+  "https://github.com/JuanitoFatas/git-style-guide",
+].map { |url| Repository.new(url).for_yml }
+
+contributions = {
+  "en" => {
+    "contributions" => {
+      "highlights" => highlights,
+      "projects" => projects,
+      "libraries" => libraries,
+      "documentations" => documentations,
+      "translations" => translations,
+    }
+  }
+}
+require "yaml"
+IO.write contributions_yml_file_path, contributions.to_yaml

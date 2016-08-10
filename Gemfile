@@ -25,6 +25,7 @@ gem "title"
 gem "rack-rewrite"
 gem "skylight"
 gem "redis"
+gem "gemoji"
 
 group :production do
   gem "rack-timeout"
@@ -38,6 +39,7 @@ group :development, :test do
 end
 
 group :development do
+  gem "octokit", "~> 4.3.0"
   gem "web-console"
   gem "listen", "~> 3.0.5"
   gem "spring"
