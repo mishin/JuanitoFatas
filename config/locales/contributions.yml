@@ -6,7 +6,7 @@ en:
       commits_url: https://github.com/JuanitoFatas/fast-ruby/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
       title: JuanitoFatas/fast-ruby
-      description: ":dash: Writing Fast Ruby :heart_eyes: —— Collect Common Ruby idioms."
+      description: ":dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms."
     - url: https://github.com/jollygoodcode/twemoji
       commits_url: https://github.com/jollygoodcode/twemoji/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/5326832?v=3&s=96
@@ -120,6 +120,11 @@ en:
       avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
       title: JuanitoFatas/rails-versions
       description: A common repository of Rails version metadata.
+    - url: https://github.com/JuanitoFatas/ruby_version_sorter
+      commits_url: https://github.com/JuanitoFatas/ruby_version_sorter/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
+      title: JuanitoFatas/ruby_version_sorter
+      description: ":black_joker: Sort Ruby & JRuby versions "
     - url: https://github.com/JuanitoFatas/sketch-octicons
       commits_url: https://github.com/JuanitoFatas/sketch-octicons/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
@@ -150,11 +155,6 @@ en:
       avatar_url: https://avatars3.githubusercontent.com/u/5326832?v=3&s=96
       title: jollygoodcode/whatsnew
       description: ":heart_eyes: Find out what's new in a project"
-    - url: https://github.com/juanitofatas/jquery-final_countdown-rails
-      commits_url: https://github.com/juanitofatas/jquery-final_countdown-rails/commits?author=JuanitoFatas
-      avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
-      title: JuanitoFatas/jquery-final_countdown-rails
-      description: https://github.com/hilios/jQuery.countdown for Rails.
     - url: https://github.com/winston/google_visualr
       commits_url: https://github.com/winston/google_visualr/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/2112?v=3&s=96
