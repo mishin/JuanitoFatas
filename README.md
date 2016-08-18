@@ -24,3 +24,9 @@ To contribute to this project, see the [CONTRIBUTING.md][] file.
 
 [CONTRIBUTING.md]: CONTRIBUTING.md
 [breakable-toy]: http://chimera.labs.oreilly.com/books/1234000001813/ch05.html#breakable_toys
+
+## License
+
+Please see [LICENSE][].
+
+[LICENSE]: https://github.com/JuanitoFatas/JuanitoFatas/blob/master/LICENSE
