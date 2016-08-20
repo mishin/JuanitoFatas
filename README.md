@@ -1,6 +1,7 @@
 # JuanitoFatas.com
 
 [![Build Status](https://travis-ci.org/JuanitoFatas/JuanitoFatas.svg?branch=master)][travis]
+[![CircleCI](https://circleci.com/gh/JuanitoFatas/JuanitoFatas.svg?style=svg)][circle]
 [![Code Climate](https://codeclimate.com/github/JuanitoFatas/JuanitoFatas/badges/gpa.svg)][code-climate]
 [![codebeat badge](https://codebeat.co/badges/888042b1-98bd-405e-95f0-61fa0be6ad45)][codebeat]
 [![codecov](https://codecov.io/gh/JuanitoFatas/JuanitoFatas/branch/master/graph/badge.svg)][codecov]
@@ -9,6 +10,7 @@
 [![security](https://hakiri.io/github/JuanitoFatas/JuanitoFatas/master.svg)][hakiri]
 
 [travis]: https://travis-ci.org/JuanitoFatas/JuanitoFatas
+[circle]: https://circleci.com/gh/JuanitoFatas/JuanitoFatas
 [code-climate]: https://codeclimate.com/github/JuanitoFatas/JuanitoFatas
 [codebeat]: https://codebeat.co/projects/github-com-juanitofatas-juanitofatas
 [codecov]: https://codecov.io/gh/JuanitoFatas/JuanitoFatas
