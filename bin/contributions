@@ -53,6 +53,7 @@ highlights = [
   "https://github.com/jch/html-pipeline",
   "https://github.com/JuanitoFatas/what-do-you-call-this-in-ruby",
   "https://github.com/ruby/spec",
+  "https://github.com/reddotrubyconf/rdrc2016",
 ].map { |url| Repository.new(url).for_yml }
 
 projects = [

@@ -27,6 +27,11 @@ en:
       avatar_url: https://avatars3.githubusercontent.com/u/210414?v=3&s=96
       title: ruby/spec
       description: The Ruby Spec Suite
+    - url: https://github.com/reddotrubyconf/rdrc2016
+      commits_url: https://github.com/reddotrubyconf/rdrc2016/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/16648925?v=3&s=96
+      title: reddotrubyconf/rdrc2016
+      description: ":gem: Source code of RedDotRubyConf 2016"
     projects:
     - url: https://github.com/jollygoodcode/dasherize
       commits_url: https://github.com/jollygoodcode/dasherize/commits?author=JuanitoFatas
