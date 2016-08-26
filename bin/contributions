@@ -60,9 +60,14 @@ projects = [
   "https://github.com/jollygoodcode/dasherize",
   "https://github.com/jollygoodcode/reread",
   "https://github.com/JuanitoFatas/JuanitoFatas",
+  "https://github.com/houndci/hound",
+  "https://github.com/rubygems/rubygems.org",
 ].map { |url| Repository.new(url).for_yml }
 
 libraries = [
+  "https://github.com/bundler/bundler",
+  "https://github.com/evanphx/benchmark-ips",
+  "https://github.com/DockYard/party_foul",
   "https://github.com/JuanitoFatas/Orval",
   "https://github.com/JuanitoFatas/active_error",
   "https://github.com/JuanitoFatas/active_loader",
@@ -90,15 +95,22 @@ libraries = [
 ].map { |url| Repository.new(url).for_yml }
 
 documentations = [
+  "https://github.com/ruby/www.ruby-lang.org",
+  "https://github.com/jlord/git-it",
   "https://github.com/rubytaiwan/taipei",
   "https://github.com/JuanitoFatas/singapore",
   "https://github.com/JuanitoFatas/remote",
 ].map { |url| Repository.new(url).for_yml }
 
 translations = [
+  "https://github.com/docrails-tw/guides",
+  "https://github.com/ruby-china/guides",
+  "https://github.com/railsgirls-taiwan/railsgirls-taiwan.github.io",
   "https://github.com/JuanitoFatas/ruby-style-guide",
   "https://github.com/JuanitoFatas/rails-style-guide",
   "https://github.com/JuanitoFatas/git-style-guide",
+  "https://github.com/JuanitoFatas/clojure-style-guide",
+  "https://github.com/JuanitoFatas/Google-Common-Lisp-Style-Guide",
 ].map { |url| Repository.new(url).for_yml }
 
 contributions = {

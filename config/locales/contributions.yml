@@ -48,7 +48,32 @@ en:
       avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
       title: JuanitoFatas/JuanitoFatas
       description: "\U0001F38E My Breakable Toy"
+    - url: https://github.com/houndci/hound
+      commits_url: https://github.com/houndci/hound/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/17184073?v=3&s=96
+      title: houndci/hound
+      description: Automated review for code style
+    - url: https://github.com/rubygems/rubygems.org
+      commits_url: https://github.com/rubygems/rubygems.org/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/208761?v=3&s=96
+      title: rubygems/rubygems.org
+      description: The Ruby community's gem hosting service.
     libraries:
+    - url: https://github.com/bundler/bundler
+      commits_url: https://github.com/bundler/bundler/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/1137638?v=3&s=96
+      title: bundler/bundler
+      description: Manage your application's gem dependencies with less pain
+    - url: https://github.com/evanphx/benchmark-ips
+      commits_url: https://github.com/evanphx/benchmark-ips/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/7?v=3&s=96
+      title: evanphx/benchmark-ips
+      description: Provides iteration per second benchmarking for Ruby
+    - url: https://github.com/DockYard/party_foul
+      commits_url: https://github.com/DockYard/party_foul/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/873981?v=3&s=96
+      title: DockYard/party_foul
+      description: Use GitHub to track your application errors!
     - url: https://github.com/JuanitoFatas/Orval
       commits_url: https://github.com/JuanitoFatas/Orval/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
@@ -173,6 +198,17 @@ en:
       description: Rails helpers based on opinionated project practices. Currently
         useful for structuring CSS and JS.
     documentations:
+    - url: https://github.com/ruby/www.ruby-lang.org
+      commits_url: https://github.com/ruby/www.ruby-lang.org/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/210414?v=3&s=96
+      title: ruby/www.ruby-lang.org
+      description: Source of the https://www.ruby-lang.org website.
+    - url: https://github.com/jlord/git-it
+      commits_url: https://github.com/jlord/git-it/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/1305617?v=3&s=96
+      title: jlord/git-it
+      description: ":computer: :mortar_board: Learn Git and GitHub. Try the new desktop
+        version → "
     - url: https://github.com/rubytaiwan/taipei
       commits_url: https://github.com/rubytaiwan/taipei/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/584859?v=3&s=96
@@ -189,6 +225,21 @@ en:
       title: JuanitoFatas/remote
       description: ":sparkling_heart: Remote resources for you and me :revolving_hearts:"
     translations:
+    - url: https://github.com/docrails-tw/guides
+      commits_url: https://github.com/docrails-tw/guides/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/7095897?v=3&s=96
+      title: docrails-tw/guides
+      description: ":books: The Source of http://rails.ruby.tw"
+    - url: https://github.com/ruby-china/guides
+      commits_url: https://github.com/ruby-china/guides/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/1331033?v=3&s=96
+      title: ruby-china/guides
+      description: The source of http://guides.ruby-china.org
+    - url: https://github.com/railsgirls-taiwan/railsgirls-taiwan.github.io
+      commits_url: https://github.com/railsgirls-taiwan/railsgirls-taiwan.github.io/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/5234811?v=3&s=96
+      title: railsgirls-taiwan/railsgirls-taiwan.github.io
+      description: Official guide and blog of Rails Girls Taiwan Community
     - url: https://github.com/JuanitoFatas/ruby-style-guide
       commits_url: https://github.com/JuanitoFatas/ruby-style-guide/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
@@ -204,3 +255,13 @@ en:
       avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
       title: JuanitoFatas/git-style-guide
       description: Git Style Guide in Chinese
+    - url: https://github.com/JuanitoFatas/clojure-style-guide
+      commits_url: https://github.com/JuanitoFatas/clojure-style-guide/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
+      title: JuanitoFatas/clojure-style-guide
+      description: A community coding style guide for the Clojure programming language
+    - url: https://github.com/JuanitoFatas/Google-Common-Lisp-Style-Guide
+      commits_url: https://github.com/JuanitoFatas/Google-Common-Lisp-Style-Guide/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
+      title: JuanitoFatas/Google-Common-Lisp-Style-Guide
+      description: Google Common Lisp Style Guide in Chinese
