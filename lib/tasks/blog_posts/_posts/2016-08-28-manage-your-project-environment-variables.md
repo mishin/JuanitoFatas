@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Manage Your Project's Environment Variable"
+title: "Manage Your Project's Environment Variables"
 date: 2016-08-28 18:00:00
 description: "Manage your Rails project's environment variables with dotenv gem."
 tags: rails, practice, environment
