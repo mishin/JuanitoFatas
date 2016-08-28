@@ -65,6 +65,7 @@ projects = [
 ].map { |url| Repository.new(url).for_yml }
 
 libraries = [
+  "https://github.com/rails/rails",
   "https://github.com/bundler/bundler",
   "https://github.com/evanphx/benchmark-ips",
   "https://github.com/DockYard/party_foul",
@@ -84,6 +85,7 @@ libraries = [
   "https://github.com/JuanitoFatas/os_name",
   "https://github.com/JuanitoFatas/rails-versions",
   "https://github.com/JuanitoFatas/ruby_version_sorter",
+  "https://github.com/JuanitoFatas/singapore",
   "https://github.com/JuanitoFatas/sketch-octicons",
   "https://github.com/jollygoodcode/bin",
   "https://github.com/jollygoodcode/emoji-keywords",
@@ -98,7 +100,7 @@ documentations = [
   "https://github.com/ruby/www.ruby-lang.org",
   "https://github.com/jlord/git-it",
   "https://github.com/rubytaiwan/taipei",
-  "https://github.com/JuanitoFatas/singapore",
+  "https://github.com/rubysg/singapore",
   "https://github.com/JuanitoFatas/remote",
 ].map { |url| Repository.new(url).for_yml }
 

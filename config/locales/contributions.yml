@@ -59,6 +59,11 @@ en:
       title: rubygems/rubygems.org
       description: The Ruby community's gem hosting service.
     libraries:
+    - url: https://github.com/rails/rails
+      commits_url: https://github.com/rails/rails/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/4223?v=3&s=96
+      title: rails/rails
+      description: Ruby on Rails
     - url: https://github.com/bundler/bundler
       commits_url: https://github.com/bundler/bundler/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/1137638?v=3&s=96
@@ -155,6 +160,11 @@ en:
       avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
       title: JuanitoFatas/ruby_version_sorter
       description: ":black_joker: Sort Ruby & JRuby versions "
+    - url: https://github.com/JuanitoFatas/singapore
+      commits_url: https://github.com/JuanitoFatas/singapore/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
+      title: JuanitoFatas/singapore
+      description: Adding Singlish support to the Ruby language
     - url: https://github.com/JuanitoFatas/sketch-octicons
       commits_url: https://github.com/JuanitoFatas/sketch-octicons/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
@@ -214,11 +224,11 @@ en:
       avatar_url: https://avatars3.githubusercontent.com/u/584859?v=3&s=96
       title: rubytaiwan/taipei
       description: 'Things to know about Taipei for our overseas friends! '
-    - url: https://github.com/JuanitoFatas/singapore
-      commits_url: https://github.com/JuanitoFatas/singapore/commits?author=JuanitoFatas
-      avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
-      title: JuanitoFatas/singapore
-      description: Adding Singlish support to the Ruby language
+    - url: https://github.com/rubysg/singapore
+      commits_url: https://github.com/rubysg/singapore/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/5369344?v=3&s=96
+      title: rubysg/singapore
+      description: Things to know about Singapore for our overseas friends!
     - url: https://github.com/JuanitoFatas/remote
       commits_url: https://github.com/JuanitoFatas/remote/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/1000669?v=3&s=96
