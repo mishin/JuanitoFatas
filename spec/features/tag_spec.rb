@@ -14,12 +14,13 @@ RSpec.feature "Tag Pages" do
   end
 
   scenario "anyone views a tag page" do
-    post = create(:post, title: "The Plan", body: "Make Ruby Great Again!", tags: %w(america trump))
+    tag = %w(trump)
+    create(:post, title: "Make Ruby Great!", tags: tag, created_at: 3.days.ago)
+    create(:post, title: "Make Ruby Great Again!", tags: tag)
 
-    visit blog_post_url(post.slug)
+    visit tag_url("trump")
 
     expect(page.status_code).to eq 200
-    expect(page).to have_text("The Plan")
-    expect(page).to have_text("americatrump")
+    expect(first(".tiny-post-title a")).to have_text "Make Ruby Great Again!"
   end
 end

@@ -17,6 +17,6 @@ class TagsController < ApplicationController
   private
 
     def find_posts
-      @posts = Post.with_tag(params[:id])
+      @posts = Post.with_tag(params[:id]).newest_first
     end
 end
