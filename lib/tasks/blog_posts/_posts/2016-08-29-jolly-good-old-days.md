@@ -166,6 +166,8 @@ Simplest thing goes hand in hand with the principle of “good enough”. I am t
 
 Which is very cool! I think he can solve any problem if he is not busy changing diapers :)
 
+I hope one day I can be a great problem solver like him.
+
 ## Don't get stuck
 
 If stuck for too long, let's say 30 minutes, seek for help. [Because nothing is real until it is shipped](https://gist.github.com/adamwiggins/5687294#ship-it), and maybe [now isn't a good time, take a break and come back at it](https://gist.github.com/adamwiggins/5687294#timing-matters).
