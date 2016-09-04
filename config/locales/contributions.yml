@@ -64,6 +64,11 @@ en:
       avatar_url: https://avatars3.githubusercontent.com/u/4223?v=3&s=96
       title: rails/rails
       description: Ruby on Rails
+    - url: https://github.com/danger/danger
+      commits_url: https://github.com/danger/danger/commits?author=JuanitoFatas
+      avatar_url: https://avatars3.githubusercontent.com/u/17147106?v=3&s=96
+      title: danger/danger
+      description: Stop saying "you forgot to …" in code review
     - url: https://github.com/bundler/bundler
       commits_url: https://github.com/bundler/bundler/commits?author=JuanitoFatas
       avatar_url: https://avatars3.githubusercontent.com/u/1137638?v=3&s=96

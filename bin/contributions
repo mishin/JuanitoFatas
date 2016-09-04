@@ -66,6 +66,7 @@ projects = [
 
 libraries = [
   "https://github.com/rails/rails",
+  "https://github.com/danger/danger",
   "https://github.com/bundler/bundler",
   "https://github.com/evanphx/benchmark-ips",
   "https://github.com/DockYard/party_foul",
