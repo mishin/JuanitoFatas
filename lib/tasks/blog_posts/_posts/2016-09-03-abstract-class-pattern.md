@@ -75,7 +75,7 @@ And there seems no good use of class variables, so please try to avoid it.
 With this, we will be able to find out who is `hungry?`:
 
 ```ruby
-hungry_kids = Family.child_classes.select { |child| child.valid? }
+hungry_kids = Family.child_classes.select(&:hungry?)
 ```
 
 ## Any concrete examples?
